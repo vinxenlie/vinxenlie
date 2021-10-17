@@ -1,0 +1,163 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:  'open Sans'. sans-serif;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+   float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: black;
+}
+
+h1 {
+    font-family: 'comic sans ms';
+    color: black; 
+    margin-bottom: 15px;   
+    line-height: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: cornflowerblue;
+}
+
+p {
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'comic sans ms';
+    margin: auto;
+    padding: 8px 50px 8px 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: cornflowerblue;
+}
+
+.kolom .Visi {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'comic sans ms';
+    margin: auto;
+    padding: 8px 50px 8px 50px;
+}
+
+.kolom .Misi {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: blue;
+}
+
+p {
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'comic sans ms';
+    margin: auto;
+    padding: 8px 50px 8px 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'comic sans ms';
+    color: cornflowerblue;
+}
+
+pre {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'comic sans ms';
+}
